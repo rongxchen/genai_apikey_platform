@@ -1,0 +1,70 @@
+export default {
+    login: {
+        emailPlaceholder: "Please enter email",
+        passwordPlaceholder: "Please enter password",
+        loginBtn: "Login",
+        remember: "Remember me",
+        registerText: "Don't have an account? ",
+        registerBtn: "Sign up now",
+    },
+    reg: {
+        emailPlaceholder: "Please enter email",
+        usernamePlaceholder: "Please enter username",
+        passwordPlaceholder: "Please enter password",
+        regBtn: "Register",
+        loginText: "Already have an account? ",
+        loginBtn: "Login",
+    },
+    sideBar: {
+        createChat: "Create Chat",
+        today: "Today",
+        yesterday: "Yesterday",
+        previousSeven: "Previous 7 days",
+        previousAll: "Previous all",
+        collapseText: "Collapse",
+        expandText: "Expande",
+        rename: "Rename",
+    },
+    messageBox: {
+        thought: "Thought",
+    },
+    setting: {
+        title: "Setting",
+        general: {
+            title: "General",
+            device: "Device",
+            darkMode: "Dark Mode",
+            changeLang: "Change Language",
+        },
+        apiKey: {
+            title: "API Key",
+            create: "Create",
+            provider: "Provider",
+            key: "Key",
+            createDate: "Create Date",
+            operation: "Operation",
+            edit: "Edit",
+            delete: "Delete",
+            deleteConfirm: "Delete?",
+            hide: "Hide",
+            show: "Show",
+            providerPlaceholder: "Please select API Key provider",
+            keyPlaceholder: "Please enter API Key",
+            setDefault: "Set default"
+        },
+        personal: {
+            title: "Personal",
+        },
+    },
+    common: {
+        yes: "Yes",
+        no: "No",
+        confirm: "Confirm",
+        cancel: "Cancel",
+        logout: "Logout",
+        fold: "Fold",
+        unfold: "Unfold",
+        delete: "Delete",
+        deleteConfirm: "Delete?",
+    }
+}

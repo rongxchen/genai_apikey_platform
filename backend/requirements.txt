@@ -1,0 +1,17 @@
+fastapi
+pycryptodome
+pydantic
+PyJWT
+pymongo
+uvicorn
+pydantic[email]
+python-multipart
+pytz
+websockets
+pillow
+fastapi-utilities
+pyyaml
+openai==1.63.2
+fastapi[all]
+sse-starlette
+asyncio

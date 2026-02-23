@@ -1,0 +1,181 @@
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.grey-text {
+    color: #8c8c8c;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.el-card {
+    border: none;
+}
+.el-button {
+    border-radius: 8px;
+}
+
+/* ant design vue */
+.ant-modal-content {
+    border-radius: 12px !important;
+}
+.ant-modal-content, .ant-modal-title, .ant-modal-close-x {
+    background-color: var(--el-bg-color) !important;
+    color: var(--el-text-color-primary) !important;
+}
+.ant-radio-button-wrapper.filter-radio {
+    background-color: var(--el-bg-color) !important;
+    color: var(--el-text-color-primary) !important;
+}
+.ant-radio-button-wrapper.ant-radio-button-wrapper-checked.filter-radio {
+    color: var(--el-color-primary) !important;
+    border-color: var(--el-color-primary) !important;
+}
+.ant-popover-inner, .ant-popover-arrow::before, .ant-popover-arrow::after {
+    background-color: var(--el-bg-color-overlay) !important;
+}
+.ant-popover-inner, .ant-popover-arrow::after {
+    border: 1px solid var(--el-border-color-light) !important;
+}
+.ant-popover-inner-content {
+    color: var(--custom-color) !important;
+}
+.ant-dropdown-menu {
+    background-color: var(--el-bg-color) !important;
+    border: 1px solid var(--el-border-color-light) !important;
+}
+.ant-dropdown-menu-item {
+    color: var(--el-text-color-primary) !important;
+}
+.ant-dropdown-menu-item:hover {
+    background-color: var(--el-color-info-light-9) !important;
+}
+.ant-popconfirm {
+    background-color: var(--el-bg-color) !important;
+    border-radius: 12px !important;
+}
+.ant-popconfirm-message-title {
+    color: var(--el-text-color-primary) !important;
+}
+.ant-btn-default {
+    background-color: var(--el-bg-color-overlay) !important;
+    color: var(--el-text-color-primary) !important;
+    border: 1px solid var(--el-border-color-light) !important;
+}
+
+.header-code-highlight, .border-copy {
+    display: none !important;
+}
+
+p, pre, code {
+    margin: 0 !important;
+}
+pre {
+    color: #e2d9d9;
+    border-radius: 0 0 12px 12px;
+}
+code {
+    font-size: 13px !important;
+    padding: 10px 14px !important;
+}
+
+/* color */
+html {
+    --custom-color: #5f5f5f;
+    color: var(--custom-color) !important;
+}
+html.dark {
+    --custom-color: #d3d3d3;
+    color: var(--custom-color) !important;
+}
+
+/* color set */
+html.dark {
+    --el-bg-color: #1d2022;
+    background-color: var(--el-bg-color);
+    --el-bg-color-overlay: #272a2e !important;
+}
+
+:root {
+    --el-color-primary: #1677ff;
+    --el-color-primary-light-3: #5a9efe;
+    --el-color-primary-light-5: #88b9fd;
+    --el-color-primary-light-7: #b6d3fc;
+    --el-color-primary-light-8: #cce0fb;
+    --el-color-primary-light-9: #e3edfb;
+    --el-color-danger: #ff4d4f;
+    --el-color-danger-light-3: #fe8182;
+    --el-color-danger-light-5: #fda4a5;
+    --el-color-danger-light-7: #fcc6c7;
+    --el-color-danger-light-8: #fbd7d8;
+    --el-color-danger-light-9: #fbe9e9;
+    --el-color-error: #ff4d4f;
+    --el-color-error-light-3: #fe8182;
+    --el-color-error-light-5: #fda4a5;
+    --el-color-error-light-7: #fcc6c7;
+    --el-color-error-light-8: #fbd7d8;
+    --el-color-error-light-9: #fbe9e9;
+    --el-color-success: #50a128;
+    --el-color-success-light-3: #83bc67;
+    --el-color-success-light-5: #a5ce91;
+    --el-color-success-light-7: #c7dfbb;
+    --el-color-success-light-8: #d8e8d0;
+    --el-color-success-light-9: #e9f1e5;
+    --el-color-warning: #d48d23;
+    --el-color-warning-light-3: #dfae63;
+    --el-color-warning-light-5: #e7c48f;
+    --el-color-warning-light-7: #efd9ba;
+    --el-color-warning-light-8: #f2e4cf;
+    --el-color-warning-light-9: #f6efe5;
+    --el-color-info: #a7a9ab;
+    --el-color-info-light-3: #c0c1c3;
+    --el-color-info-light-5: #d1d2d3;
+    --el-color-info-light-7: #e1e2e2;
+    --el-color-info-light-8: #e9eaea;
+    --el-color-info-light-9: #f2f2f2;
+}
+:root.dark {
+    --el-color-primary: #1677ff;
+    --el-color-primary-light-3: #1458b7;
+    --el-color-primary-light-5: #134387;
+    --el-color-primary-light-7: #112e57;
+    --el-color-primary-light-8: #10243f;
+    --el-color-primary-light-9: #101927;
+    --el-color-danger: #ff4d4f;
+    --el-color-danger-light-3: #b73a3c;
+    --el-color-danger-light-5: #872e2f;
+    --el-color-danger-light-7: #572222;
+    --el-color-danger-light-8: #3f1b1c;
+    --el-color-danger-light-9: #271515;
+    --el-color-error: #ff4d4f;
+    --el-color-error-light-3: #b73a3c;
+    --el-color-error-light-5: #872e2f;
+    --el-color-error-light-7: #572222;
+    --el-color-error-light-8: #3f1b1c;
+    --el-color-error-light-9: #271515;
+    --el-color-success: #50a128;
+    --el-color-success-light-3: #3d7521;
+    --el-color-success-light-5: #30581c;
+    --el-color-success-light-7: #233b17;
+    --el-color-success-light-8: #1c2c14;
+    --el-color-success-light-9: #161e12;
+    --el-color-warning: #d48d23;
+    --el-color-warning-light-3: #99671d;
+    --el-color-warning-light-5: #724e19;
+    --el-color-warning-light-7: #4a3515;
+    --el-color-warning-light-8: #362813;
+    --el-color-warning-light-9: #231c11;
+    --el-color-info: #a7a9ab;
+    --el-color-info-light-3: #797b7c;
+    --el-color-info-light-5: #5b5c5d;
+    --el-color-info-light-7: #3d3d3e;
+    --el-color-info-light-8: #2d2e2e;
+    --el-color-info-light-9: #1e1e1f;
+}

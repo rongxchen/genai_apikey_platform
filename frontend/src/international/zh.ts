@@ -1,0 +1,70 @@
+export default {
+    login: {
+        emailPlaceholder: "请输入邮箱",
+        passwordPlaceholder: "请输入密码",
+        loginBtn: "登录",
+        remember: "记住我",
+        registerText: "没有账号？",
+        registerBtn: "立即注册",
+    },
+    reg: {
+        emailPlaceholder: "请输入邮箱",
+        usernamePlaceholder: "请输入用户名",
+        passwordPlaceholder: "请输入密码",
+        regBtn: "注册",
+        loginText: "已有账号？",
+        loginBtn: "登录",
+    },
+    sideBar: {
+        createChat: "创建聊天",
+        today: "今天",
+        yesterday: "昨天",
+        previousSeven: "过去7天",
+        previousAll: "过去全部",
+        collapseText: "折叠",
+        expandText: "展开",
+        rename: "重命名",
+    },
+    messageBox: {
+        thought: "已思考",
+    },
+    setting: {
+        title: "设置",
+        general: {
+            title: "通用",
+            device: "设备",
+            darkMode: "深色模式",
+            changeLang: "更改语言",
+        },
+        apiKey: {
+            title: "API密钥",
+            create: "创建",
+            provider: "提供商",
+            key: "密钥",
+            createDate: "创建日期",
+            operation: "操作",
+            edit: "编辑",
+            delete: "删除",
+            deleteConfirm: "删除？",
+            hide: "隐藏",
+            show: "显示",
+            providerPlaceholder: "请选择API密钥提供商",
+            keyPlaceholder: "请输入API密钥",
+            setDefault: "设为默认"
+        },
+        personal: {
+            title: "个人",
+        },
+    },
+    common: {
+        yes: "是",
+        no: "否",
+        confirm: "确认",
+        cancel: "取消",
+        logout: "登出",
+        fold: "折叠",
+        unfold: "展开",
+        delete: "删除",
+        deleteConfirm: "删除？",
+    }
+}

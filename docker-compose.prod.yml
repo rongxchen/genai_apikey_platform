@@ -1,0 +1,33 @@
+services:
+  backend:
+    build: 
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - backend_db:/app/db
+    environment:
+      - PYTHONPATH=/app
+    restart: unless-stopped
+    networks:
+      - app-network
+
+  frontend:
+    build:
+      context: ./frontend  
+      dockerfile: Dockerfile.prod
+    ports:
+      - "80:80"
+    restart: unless-stopped
+    networks:
+      - app-network
+    depends_on:
+      - backend
+
+volumes:
+  backend_db:
+
+networks:
+  app-network:
+    driver: bridge
